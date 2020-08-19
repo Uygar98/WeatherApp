@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weatherapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LatestObservationMauritius"></activity>
+        <activity android:name=".LatestObservationBangladesh" />
+        <activity android:name=".LatestObservationOman" />
+        <activity android:name=".LatestObservationNewYork" />
+        <activity android:name=".LatestObservationLondon" />
+        <activity android:name=".LatestObservationGlasgow" />
+        <activity android:name=".MauritiusWeatherMenu" />
+        <activity android:name=".BangladeshWeatherMenu" />
+        <activity android:name=".MauritiusWeather" />
+        <activity android:name=".BangladeshWeather" />
+        <activity android:name=".NewyorkWeatherMenu" />
+        <activity android:name=".OmanWeatherMenu" />
+        <activity android:name=".OmanWeather" />
+        <activity android:name=".GlasgowWeatherMenu" />
+        <activity android:name=".LondonWeatherMenu" />
+        <activity android:name=".NewyorkWeather" />
+        <activity android:name=".LondonWeather" />
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
